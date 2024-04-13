@@ -4,6 +4,7 @@ const { Schema, model} = require('mongoose');
 const OtpSchema = new Schema({
   number : {
     type: String,
+    
     required: true
   },
   otp : {
